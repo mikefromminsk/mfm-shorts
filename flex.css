@@ -522,7 +522,7 @@ body, html {
     display: none;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 600px) {
 
     .mobile-hide{
         display: none;
