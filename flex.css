@@ -1,7 +1,17 @@
 body, html {
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
+    user-select: none;
+    width: 100%;
+    height: 100%; /*TODO test on safari*/
+}
+
+md-input-container{
+    margin: 0;
+}
+.md-errors-spacer{
+    display: none;
 }
 
 .fill {
@@ -11,7 +21,7 @@ body, html {
     height: 100%
 }
 
-.col, .row {;
+.col, .row {
     display: flex
 }
 
