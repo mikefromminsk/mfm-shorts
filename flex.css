@@ -523,252 +523,252 @@ md-input-container{
     }
 }
 
-.mobile-hide{
+.mob-hide{
     display: inherit;
 }
 
-.mobile-show{
+.mob-show{
     display: none;
 }
 
 @media (max-width: 600px) {
 
-    .mobile-hide{
+    .mob-hide{
         display: none;
     }
 
-    .mobile-show{
+    .mob-show{
         display: inherit;
     }
 
-    .mobile-col {
+    .mob-col {
         flex-direction: column
     }
 
-    .mobile-row {
+    .mob-row {
         flex-direction: row
     }
 
-    .mobile-align-start, .mobile-align-start-center, .mobile-align-start-end, .mobile-align-start-start {
+    .mob-align-start, .mob-align-start-center, .mob-align-start-end, .mob-align-start-start {
         justify-content: flex-start
     }
 
-    .mobile-align-center, .mobile-align-center-center, .mobile-align-center-end, .mobile-align-center-start {
+    .mob-align-center, .mob-align-center-center, .mob-align-center-end, .mob-align-center-start {
         justify-content: center
     }
 
-    .mobile-align-end, .mobile-align-end-center, .mobile-align-end-end, .mobile-align-end-start {
+    .mob-align-end, .mob-align-end-center, .mob-align-end-end, .mob-align-end-start {
         justify-content: flex-end
     }
 
-    .mobile-align-center-start, .mobile-align-end-start, .mobile-align-start-start {
+    .mob-align-center-start, .mob-align-end-start, .mob-align-start-start {
         align-items: flex-start;
         align-content: flex-start
     }
 
-    .mobile-align-center-center, .mobile-align-end-center, .mobile-align-start-center {
+    .mob-align-center-center, .mob-align-end-center, .mob-align-start-center {
         align-items: center;
         align-content: center;
         max-width: 100%
     }
 
-    .mobile-align-center-center > *, .mobile-align-end-center > *, .mobile-align-start-center > * {
+    .mob-align-center-center > *, .mob-align-end-center > *, .mob-align-start-center > * {
         max-width: 100%;
     }
 
-    .mobile-align-center-end, .mobile-align-end-end, .mobile-align-start-end {
+    .mob-align-center-end, .mob-align-end-end, .mob-align-start-end {
         align-items: flex-end;
         align-content: flex-end
     }
 
-    .mobile-flex {
+    .mob-flex {
         flex: 1 1 100%;
         max-width: 100%;
         max-height: 100%;
     }
 
-    .mobile-flex-10, .mobile-row > .mobile-flex-10 {
+    .mob-flex-10, .mob-row > .mob-flex-10 {
         flex: 1 1 100%;
         max-width: 10%;
         max-height: 100%;
     }
 
-    .mobile-col > .mobile-flex-10 {
+    .mob-col > .mob-flex-10 {
         flex: 1 1 100%;
         max-width: 100%;
         max-height: 10%;
     }
 
-    .mobile-flex-20, .mobile-row > .mobile-flex-20 {
+    .mob-flex-20, .mob-row > .mob-flex-20 {
         flex: 1 1 100%;
         max-width: 20%;
         max-height: 100%;
     }
 
-    .mobile-col > .mobile-flex-20 {
+    .mob-col > .mob-flex-20 {
         flex: 1 1 100%;
         max-width: 100%;
         max-height: 20%;
     }
 
-    .mobile-flex-25, .mobile-row > .mobile-flex-25 {
+    .mob-flex-25, .mob-row > .mob-flex-25 {
         flex: 1 1 100%;
         max-width: 25%;
         max-height: 100%;
     }
 
-    .mobile-col > .mobile-flex-25 {
+    .mob-col > .mob-flex-25 {
         flex: 1 1 100%;
         max-width: 100%;
         max-height: 25%;
     }
 
-    .mobile-flex-30, .mobile-row > .mobile-flex-30 {
+    .mob-flex-30, .mob-row > .mob-flex-30 {
         flex: 1 1 100%;
         max-width: 30%;
         max-height: 100%;
     }
 
-    .mobile-col > .mobile-flex-30 {
+    .mob-col > .mob-flex-30 {
         flex: 1 1 100%;
         max-width: 100%;
         max-height: 30%;
     }
 
-    .mobile-flex-40, .mobile-row > .mobile-flex-40 {
+    .mob-flex-40, .mob-row > .mob-flex-40 {
         flex: 1 1 100%;
         max-width: 40%;
         max-height: 100%;
     }
 
-    .mobile-col > .mobile-flex-40 {
+    .mob-col > .mob-flex-40 {
         flex: 1 1 100%;
         max-width: 100%;
         max-height: 40%;
     }
 
-    .mobile-flex-50, .mobile-row > .mobile-flex-50 {
+    .mob-flex-50, .mob-row > .mob-flex-50 {
         flex: 1 1 100%;
         max-width: 50%;
         max-height: 100%;
     }
 
-    .mobile-col > .mobile-flex-50, .col > .flex-50 {
+    .mob-col > .mob-flex-50, .col > .flex-50 {
         flex: 1 1 100%;
         max-width: 100%;
         max-height: 50%;
     }
 
-    .mobile-flex-60, .mobile-row > .mobile-flex-60 {
+    .mob-flex-60, .mob-row > .mob-flex-60 {
         flex: 1 1 100%;
         max-width: 60%;
         max-height: 100%;
     }
 
-    .mobile-col > .mobile-flex-60 {
+    .mob-col > .mob-flex-60 {
         flex: 1 1 100%;
         max-width: 100%;
         max-height: 60%;
     }
 
-    .mobile-flex-70, .mobile-row > .mobile-flex-70 {
+    .mob-flex-70, .mob-row > .mob-flex-70 {
         flex: 1 1 100%;
         max-width: 70%;
         max-height: 100%;
     }
 
-    .mobile-col > .mobile-flex-70 {
+    .mob-col > .mob-flex-70 {
         flex: 1 1 100%;
         max-width: 100%;
         max-height: 70%;
     }
 
-    .mobile-flex-80, .mobile-row > .mobile-flex-80 {
+    .mob-flex-80, .mob-row > .mob-flex-80 {
         flex: 1 1 100%;
         max-width: 80%;
         max-height: 100%;
     }
 
-    .mobile-col > .mobile-flex-80 {
+    .mob-col > .mob-flex-80 {
         flex: 1 1 100%;
         max-width: 100%;
         max-height: 80%;
     }
 
-    .mobile-flex-90, .mobile-row > .mobile-flex-90 {
+    .mob-flex-90, .mob-row > .mob-flex-90 {
         flex: 1 1 100%;
         max-width: 90%;
         max-height: 100%;
     }
 
-    .mobile-col > .mobile-flex-90 {
+    .mob-col > .mob-flex-90 {
         flex: 1 1 100%;
         max-width: 100%;
         max-height: 90%;
     }
 
-    .mobile-flex-33 {
+    .mob-flex-33 {
         max-width: 33.33%
     }
 
-    .mobile-flex-33, .mobile-flex-66 {
+    .mob-flex-33, .mob-flex-66 {
         flex: 1 1 100%;
         max-height: 100%;
     }
 
-    .mobile-flex-66 {
+    .mob-flex-66 {
         max-width: 66.66%
     }
 
-    .mobile-row > .mobile-flex-33 {
+    .mob-row > .mob-flex-33 {
         flex: 1 1 33.33%
     }
 
-    .mobile-row > .mobile-flex-66 {
+    .mob-row > .mob-flex-66 {
         flex: 1 1 66.66%
     }
 
-    .mobile-col > .mobile-flex-33 {
+    .mob-col > .mob-flex-33 {
         flex: 1 1 33.33%
     }
 
-    .mobile-col > .mobile-flex-66 {
+    .mob-col > .mob-flex-66 {
         flex: 1 1 66.66%
     }
 
-    .mobile-row > .mobile-flex-33 {
+    .mob-row > .mob-flex-33 {
         max-width: 33.33%
     }
 
-    .mobile-row > .mobile-flex-33, .mobile-row > .mobile-flex-66 {
+    .mob-row > .mob-flex-33, .mob-row > .mob-flex-66 {
         flex: 1 1 100%;
         max-height: 100%;
     }
 
-    .mobile-row > .mobile-flex-66 {
+    .mob-row > .mob-flex-66 {
         max-width: 66.66%
     }
 
-    .mobile-row > .mobile-flex {
+    .mob-row > .mob-flex {
         flex: 1 1 100%;
         max-width: 100%;
         max-height: 100%;
     }
 
-    .mobile-col > .mobile-flex-33 {
+    .mob-col > .mob-flex-33 {
         max-height: 33.33%
     }
 
-    .mobile-col > .mobile-flex-33, .mobile-col > .mobile-flex-66 {
+    .mob-col > .mob-flex-33, .mob-col > .mob-flex-66 {
         flex: 1 1 100%;
         max-width: 100%;
     }
 
-    .mobile-col > .mobile-flex-66 {
+    .mob-col > .mob-flex-66 {
         max-height: 66.66%
     }
 
-    .mobile-col > .mobile-flex {
+    .mob-col > .mob-flex {
         flex: 1 1 100%;
         max-width: 100%;
         max-height: 100%;
