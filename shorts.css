@@ -1,4 +1,19 @@
 /* angular fixes*/
+body {
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+img {
+    user-drag: none;
+    -webkit-user-drag: none
+}
+
 .md-button {
     margin: 0;
     height: 38px;
@@ -6,6 +21,11 @@
 
 *:focus {
     outline: none;
+}
+
+.wauto {
+    width: 100% !important;
+    height: auto !important;
 }
 
 md-content {
@@ -140,7 +160,7 @@ input::-webkit-inner-spin-button {
 .button, .button-gray {
     color: var(--accent);
     padding: 8px 16px;
-    size: 14px;
+    font-size: 14px;
     border-radius: 8px;
     border: var(--accent) solid 2px;
     cursor: pointer;
@@ -170,7 +190,7 @@ input::-webkit-inner-spin-button {
 .primary-button:disabled,
 .primary-button[disabled],
 .button[disabled],
-.button-gray[disabled]{
+.button-gray[disabled] {
     color: var(--gray200);
     cursor: default;
     background-color: var(--gray300);
@@ -191,6 +211,11 @@ input::-webkit-inner-spin-button {
     height: 32px;
 }
 
+.img64 {
+    width: 64px;
+    height: 64px;
+}
+
 .img24 {
     width: 24px;
     height: 24px;
@@ -209,6 +234,11 @@ input::-webkit-inner-spin-button {
 .img16 {
     width: 16px;
     height: 16px;
+}
+
+.img12 {
+    width: 12px;
+    height: 12px;
 }
 
 .radius4 {
@@ -245,7 +275,6 @@ input::-webkit-inner-spin-button {
 }
 
 
-
 .success .md-toast-content {
     background: green;
 }
@@ -262,7 +291,8 @@ input::-webkit-inner-spin-button {
     background: purple;
 }
 
-.primary-button{
+.primary-button {
+    font-size: 14px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -292,10 +322,83 @@ md-bottom-sheet {
     bottom: 80px;
 }
 
-.nowrap{
+.nowrap {
     white-space: nowrap;
 }
 
-.cursor{
+.cursor {
     cursor: pointer;
+}
+
+.header {
+    padding: 16px 36px;
+    background-color: black;
+    color: white;
+    min-height: 80px;
+    width: 100%;
+    gap: 50px;
+    font-size: 24px;
+    z-index: 1;
+    position: fixed;
+}
+
+.header > img {
+    width: auto;
+    height: 24px;
+}
+
+.header > img:hover {
+    cursor: pointer;
+}
+
+body > .header > p.selected {
+    text-decoration: underline;
+    text-underline-offset: 16px;
+}
+
+body > .header > p:hover {
+    cursor: pointer;
+    color: var(--gray400);
+    text-decoration: underline;
+    text-underline-offset: 16px;
+}
+
+.content {
+    padding-top: 80px;
+}
+
+.block {
+    padding: 50px 20px;
+    width: 980px;
+}
+
+md-dialog {
+    max-width: none;
+    max-height: none;
+}
+
+md-bottom-sheet md-content {
+    max-height: 500px;
+}
+
+md-bottom-sheet {
+    z-index: 10000;
+}
+
+md-toast {
+    z-index: 10001;
+}
+
+.pin-unfilled, .pin-filled {
+    border: 1px solid var(--gray400);
+    border-radius: 4px;
+    width: 24px;
+    height: 32px;
+    margin-left: 8px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.pin-filled {
+    border: 1px solid var(--green);
 }
