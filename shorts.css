@@ -4,6 +4,14 @@ body {
     font-size: 14px;
 }
 
+body, md-bottom-sheet, md-dialog {
+    background-color: var(--bottom);
+    color: var(--black);
+}
+
+.scroll {
+    overflow: auto;
+}
 
 ::-webkit-scrollbar {
     width: 0;
@@ -75,6 +83,13 @@ p {
 
 .row-content > *:last-child {
     margin-right: 16px;
+}
+
+.input-content {
+    margin-top: 20px;
+    width: 400px;
+    white-space: normal;
+    margin-bottom: 20px;
 }
 
 .input-content > * {
@@ -331,20 +346,25 @@ md-bottom-sheet {
 }
 
 .header {
-    padding: 16px 36px;
-    background-color: black;
-    color: white;
+    padding: 16px;
+    background-color: var(--upper);
     min-height: 80px;
     width: 100%;
-    gap: 50px;
-    font-size: 24px;
+    gap: 16px;
+    font-size: 14px;
     z-index: 1;
     position: fixed;
+    box-shadow: 0 0 3px 0 var(--gray100);
+}
+
+.header > img[src~="/wallet/img/back.svg"] {
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(213deg) brightness(101%) contrast(103%);
 }
 
 .header > img {
     width: auto;
-    height: 24px;
+    height: 40px;
+    padding: 8px;
 }
 
 .header > img:hover {
@@ -364,12 +384,13 @@ body > .header > p:hover {
 }
 
 .content {
-    padding-top: 80px;
+    margin-top: 80px;
 }
 
 .block {
-    padding: 50px 20px;
+    padding: 16px;
     width: 980px;
+    white-space: normal;
 }
 
 md-dialog {

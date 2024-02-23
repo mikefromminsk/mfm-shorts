@@ -479,16 +479,3 @@
     box-shadow: 0 0 2px 0 #4F50FB;
 }
 
-.scrollable-horizontal {
-    overflow: auto;
-}
-
-.scrollable-vertical {
-    overflow: auto;
-}
-
-.scrollable-horizontal::-webkit-scrollbar,
-.scrollable-vertical::-webkit-scrollbar {
-    display: none;
-}
-
