@@ -32,8 +32,8 @@ img {
 }
 
 .wauto {
-    width: 100% !important;
-    height: auto !important;
+    width: 100%;
+    height: auto;
 }
 
 md-content {
@@ -389,7 +389,6 @@ body > .header > p:hover {
 }
 
 .block {
-    padding: 16px;
     width: 980px;
     white-space: normal;
 }
