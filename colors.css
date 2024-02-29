@@ -34,6 +34,10 @@
     background-color: var(--accent);
 }
 
+.black-back {
+    background-color: var(--staticBlack);
+}
+
 .green-text {
     color: var(--green);
 }
@@ -191,7 +195,26 @@
 
 .size32 {
     font-size: 32px;
-    line-height: 42px;
+}
+
+.size32 {
+    font-size: 32px;
+}
+
+.size40 {
+    font-size: 40px;
+}
+
+.size50 {
+    font-size: 50px;
+}
+
+.size60 {
+    font-size: 60px;
+}
+
+.size70 {
+    font-size: 70px;
 }
 
 .m0 {
@@ -472,7 +495,7 @@
 }
 
 .shadow-black {
-    box-shadow: 0 0 3px 0 var(--gray300);
+    box-shadow: 0 0 3px 0 var(--staticBlack);
 }
 
 .shadow-blue {
