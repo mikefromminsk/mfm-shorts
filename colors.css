@@ -78,6 +78,10 @@
     color: var(--gray500);
 }
 
+.gray100-back {
+    background-color: var(--gray100);
+}
+
 .gray200-back {
     background-color: var(--gray200);
 }
