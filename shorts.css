@@ -104,6 +104,10 @@ p {
     margin-bottom: 16px;
 }
 
+.input-wrapper > input:disabled {
+    color: var(--gray300);
+}
+
 .input-wrapper {
     position: relative;
 }
@@ -113,10 +117,11 @@ input:disabled {
     background-color: rgba(0, 0, 0, 0.05);
 }
 
-.input {
+.input-wrapper > input {
     background-color: var(--gray100);
     color: var(--black);
     height: 42px;
+    width: 100%;
     outline: none;
     border-radius: 3px;
     font-size: 16px;
@@ -135,7 +140,7 @@ input::-webkit-inner-spin-button {
     margin: 0;
 }
 
-.input-label-top {
+.input-label {
     top: -6px;
     left: 10px;
     position: absolute;
@@ -214,51 +219,71 @@ input::-webkit-inner-spin-button {
 .img38 {
     width: 38px;
     height: 38px;
+    min-width: 38px;
+    min-height: 38px;
 }
 
 .img36 {
     width: 36px;
     height: 36px;
+    min-width: 36px;
+    min-height: 36px;
 }
 
 .img40 {
     width: 40px;
     height: 40px;
+    min-width: 40px;
+    min-height: 40px;
 }
 
 .img32 {
     width: 32px;
     height: 32px;
+    min-width: 32px;
+    min-height: 32px;
 }
 
 .img64 {
     width: 64px;
     height: 64px;
+    min-width: 64px;
+    min-height: 64px;
 }
 
 .img24 {
     width: 24px;
     height: 24px;
+    min-width: 24px;
+    min-height: 24px;
 }
 
 .img22 {
     width: 22px;
     height: 22px;
+    min-width: 22px;
+    min-height: 22px;
 }
 
 .img20 {
     width: 20px;
     height: 20px;
+    min-width: 20px;
+    min-height: 20px;
 }
 
 .img16 {
     width: 16px;
     height: 16px;
+    min-width: 16px;
+    min-height: 16px;
 }
 
 .img12 {
     width: 12px;
     height: 12px;
+    min-width: 12px;
+    min-height: 12px;
 }
 
 .radius4 {
@@ -356,7 +381,6 @@ md-bottom-sheet {
     min-height: 80px;
     width: 100%;
     gap: 16px;
-    font-size: 14px;
     z-index: 1;
     position: fixed;
     box-shadow: 0 0 3px 0 var(--gray100);
