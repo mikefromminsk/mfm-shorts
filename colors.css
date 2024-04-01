@@ -35,11 +35,11 @@
     color: var(--white);
 }
 
-.blue-text {
+.accent-text {
     color: var(--accent);
 }
 
-.blue-back {
+.accent-back {
     background-color: var(--accent);
 }
 

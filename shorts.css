@@ -284,6 +284,13 @@ input::-webkit-inner-spin-button {
     min-height: 24px;
 }
 
+.img18 {
+    width: 18px;
+    height: 18px;
+    min-width: 18px;
+    min-height: 18px;
+}
+
 .img28 {
     width: 28px;
     height: 28px;
