@@ -1,5 +1,6 @@
 :root {
     --accent: #7B1CF3;
+    --accent-secondary: #AE92E1;
     --white: #FFFFFF;
     --black: #000000;
     --upper: #FFFFFF;
@@ -16,6 +17,14 @@
     --green: #00C07B;
     --red: #FF3347;
     --warning: #FFC048;
+}
+
+.accent-text {
+    color: var(--accent);
+}
+
+.secondary-text {
+    color: var(--accent-secondary);
 }
 
 .black-text {
@@ -35,7 +44,7 @@
 }
 
 .black-back {
-    background-color: var(--staticBlack);
+    background-color: var(--black);
 }
 
 .green-text {
@@ -48,6 +57,10 @@
 
 .white-back {
     background-color: var(--white);
+}
+
+.secondary-back {
+    background-color: var(--accent-secondary);
 }
 
 .red-text {
