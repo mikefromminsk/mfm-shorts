@@ -166,11 +166,14 @@ input::-webkit-inner-spin-button {
 }
 
 .input-label-right {
-    right: 0;
-    padding: 8px 8px;
-    font-size: 14px;
-    color: var(--gray400);
     position: absolute;
+    right: 0;
+    font-size: 14px;
+    padding: 0 8px;
+    margin: 1px;
+    height: calc(100% - 2px);
+    background-color: var(--gray500);
+    color: var(--accent);
 }
 
 input::-webkit-input-placeholder {
@@ -449,7 +452,6 @@ md-bottom-sheet {
     position: fixed;
     border-top-right-radius: 60px;
     font-size: 24px;
-    text-transform: uppercase;
     font-family: Gilroy-ExtraBold;
 }
 
