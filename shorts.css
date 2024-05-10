@@ -123,7 +123,7 @@ input:disabled {
     font-size: 16px;
     padding-left: 12px;
     padding-top: 4px;
-    border: 1px solid var(--gray100);
+    border: 1px solid var(--gray300);
 }
 
 .input-wrapper-black > input {
