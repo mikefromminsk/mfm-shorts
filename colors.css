@@ -519,8 +519,11 @@
     box-shadow: 0 0 2px 0 #4F50FB;
 }
 
-.text-fill{
+.text-fill {
     text-align: justify;
     text-justify: inter-word;
 }
 
+.r3 {
+    border-radius: 3px
+}
