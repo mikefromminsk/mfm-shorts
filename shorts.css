@@ -342,6 +342,13 @@ input::-webkit-input-placeholder {
     min-height: 12px;
 }
 
+.img10 {
+    width: 10px;
+    height: 10px;
+    min-width: 10px;
+    min-height: 10px;
+}
+
 .radius4 {
     border-radius: 4px;
 }

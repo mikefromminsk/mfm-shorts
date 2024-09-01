@@ -14,7 +14,7 @@
 
     --staticWhite: #FFFFFF;
     --staticBlack: #000000;
-    --green: #00C07B;
+    --green: #009461; /* old #00C07B;*/
     --red: #FF3347;
     --warning: #FFC048;
 }
@@ -33,6 +33,14 @@
 
 .white-text {
     color: var(--white);
+}
+
+.static-black-text {
+    color: var(--staticBlack);
+}
+
+.static-white-text {
+    color: var(--staticWhite);
 }
 
 .accent-text {
