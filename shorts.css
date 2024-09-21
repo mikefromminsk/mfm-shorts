@@ -13,6 +13,7 @@ html, body, md-dialog {
     overflow: auto;
 }
 
+
 ::-webkit-scrollbar {
     width: 0;
 }
