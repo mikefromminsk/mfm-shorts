@@ -470,11 +470,11 @@ md-dialog > .header{
     font-family: Gilroy-Light;
 }
 
-md-dialog > .header  > img[src~="/wallet/img/back.svg"] {
+md-dialog > .header  > img[src~="/mfm-wallet/img/back.svg"] {
     filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(213deg) brightness(101%) contrast(103%);
 }
 
-.header > img[src~="/wallet/img/back.svg"] {
+.header > img[src~="/mfm-wallet/img/back.svg"] {
     filter: invert(0%) sepia(24%) saturate(0%) hue-rotate(83deg) brightness(91%) contrast(103%);
 }
 
