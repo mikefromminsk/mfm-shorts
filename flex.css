@@ -22,6 +22,14 @@ md-input-container{
     height: 100%;
 }
 
+.fill-width {
+    width: 100%;
+}
+
+.fill-height {
+    height: 100%;
+}
+
 .col, .row {
     display: flex
 }
