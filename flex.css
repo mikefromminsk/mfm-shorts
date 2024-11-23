@@ -7,14 +7,6 @@ body, html {
     height: 100%;   /*TODO demo on safari*/
 }
 
-md-input-container{
-    margin: 0;
-}
-.md-errors-spacer{
-    display: none;
-}
-
-
 .fill {
     margin: 0;
     width: 100%;
