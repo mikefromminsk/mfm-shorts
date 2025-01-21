@@ -299,6 +299,10 @@
     padding-top: 16px;
 }
 
+.gap4 {
+    gap: 4px;
+}
+
 .gap8 {
     gap: 8px;
 }
