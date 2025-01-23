@@ -30,8 +30,16 @@ body, html {
     flex-direction: column
 }
 
+.col-reverse {
+    flex-direction: column-reverse
+}
+
 .row {
     flex-direction: row
+}
+
+.row-reverse {
+    flex-direction: row-reverse
 }
 
 .wrap {
