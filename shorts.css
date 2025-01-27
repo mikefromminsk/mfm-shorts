@@ -460,6 +460,20 @@
     min-height: 10px;
 }
 
+.img8 {
+    width: 8px;
+    height: 8px;
+    min-width: 8px;
+    min-height: 8px;
+}
+
+.img4 {
+    width: 4px;
+    height: 4px;
+    min-width: 4px;
+    min-height: 4px;
+}
+
 .radius3 {
     border-radius: 3px
 }
