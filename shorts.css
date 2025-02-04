@@ -531,7 +531,7 @@
     border: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     .mob-size8 {
         font-size: 8px;
     }
