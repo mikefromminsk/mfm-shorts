@@ -31,6 +31,10 @@
     font-size: 20px;
 }
 
+.size22 {
+    font-size: 22px;
+}
+
 .size24 {
     font-size: 24px;
 }
@@ -311,6 +315,14 @@
     gap: 16px;
 }
 
+.gap24 {
+    gap: 24px;
+}
+
+.gap32 {
+    gap: 32px;
+}
+
 .regular {
     font-weight: 400;
 }
@@ -517,4 +529,527 @@
 
 .border-none {
     border: none;
+}
+
+@media (max-width: 600px) {
+    .mob-size8 {
+        font-size: 8px;
+    }
+
+    .mob-size10 {
+        font-size: 10px;
+    }
+
+    .mob-size12 {
+        font-size: 12px;
+    }
+
+    .mob-size13 {
+        font-size: 13px;
+    }
+
+    .mob-size14 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .mob-size16 {
+        font-size: 16px;
+    }
+
+    .mob-size18 {
+        font-size: 18px;
+    }
+
+    .mob-size20 {
+        font-size: 20px;
+    }
+
+    .mob-size22 {
+        font-size: 22px;
+    }
+
+    .mob-size24 {
+        font-size: 24px;
+    }
+
+    .mob-size32 {
+        font-size: 32px;
+    }
+
+    .mob-size40 {
+        font-size: 40px;
+    }
+
+    .mob-size50 {
+        font-size: 50px;
+    }
+
+    .mob-size60 {
+        font-size: 60px;
+    }
+
+    .mob-size70 {
+        font-size: 70px;
+    }
+
+    .mob-m0 {
+        margin: 0px;
+    }
+
+    .mob-m4 {
+        margin: 4px;
+    }
+
+    .mob-m8 {
+        margin: 8px;
+    }
+
+    .mob-m16 {
+        margin: 16px;
+    }
+
+    .mob-ml0 {
+        margin-left: 0;
+    }
+
+    .mob-mr0 {
+        margin-right: 0;
+    }
+
+    .mob-mb0 {
+        margin-bottom: 0;
+    }
+
+    .mob-mt0 {
+        margin-top: 0;
+    }
+
+    .mob-mh0 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .mob-mv0 {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .mob-ml4 {
+        margin-left: 4px;
+    }
+
+    .mob-mr4 {
+        margin-right: 4px;
+    }
+
+    .mob-mb4 {
+        margin-bottom: 4px;
+    }
+
+    .mob-mt4 {
+        margin-top: 4px;
+    }
+
+    .mob-mh4 {
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+
+    .mob-mv4 {
+        margin-bottom: 4px;
+        margin-top: 4px;
+    }
+
+    .mob-ml8 {
+        margin-left: 8px;
+    }
+
+    .mob-mr8 {
+        margin-right: 8px;
+    }
+
+    .mob-mb8 {
+        margin-bottom: 8px;
+    }
+
+    .mob-mt8 {
+        margin-top: 8px;
+    }
+
+    .mob-mh8 {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .mob-mv8 {
+        margin-bottom: 8px;
+        margin-top: 8px;
+    }
+
+    .mob-ml16 {
+        margin-left: 16px;
+    }
+
+    .mob-mr16 {
+        margin-right: 16px;
+    }
+
+    .mob-mb16 {
+        margin-bottom: 16px;
+    }
+
+    .mob-mt16 {
+        margin-top: 16px;
+    }
+
+    .mob-mh16 {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .mob-mv16 {
+        margin-bottom: 16px;
+        margin-top: 16px;
+    }
+
+    .mob-p0 {
+        padding: 0;
+    }
+
+    .mob-p4 {
+        padding: 4px;
+    }
+
+    .mob-p8 {
+        padding: 8px;
+    }
+
+    .mob-p16 {
+        padding: 16px;
+    }
+
+    .mob-pl0 {
+        padding-left: 0;
+    }
+
+    .mob-pr0 {
+        padding-right: 0;
+    }
+
+    .mob-pb0 {
+        padding-bottom: 0;
+    }
+
+    .mob-pt0 {
+        padding-top: 0;
+    }
+
+    .mob-ph0 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .mob-pv0 {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .mob-pl4 {
+        padding-left: 4px;
+    }
+
+    .mob-pr4 {
+        padding-right: 4px;
+    }
+
+    .mob-pb4 {
+        padding-bottom: 4px;
+    }
+
+    .mob-pt4 {
+        padding-top: 4px;
+    }
+
+    .mob-ph4 {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
+    .mob-pv4 {
+        padding-bottom: 4px;
+        padding-top: 4px;
+    }
+
+    .mob-pl8 {
+        padding-left: 8px;
+    }
+
+    .mob-pr8 {
+        padding-right: 8px;
+    }
+
+    .mob-pb8 {
+        padding-bottom: 8px;
+    }
+
+    .mob-pt8 {
+        padding-top: 8px;
+    }
+
+    .mob-ph8 {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .mob-pv8 {
+        padding-bottom: 8px;
+        padding-top: 8px;
+    }
+
+    .mob-pl16 {
+        padding-left: 16px;
+    }
+
+    .mob-pr16 {
+        padding-right: 16px;
+    }
+
+    .mob-pb16 {
+        padding-bottom: 16px;
+    }
+
+    .mob-pt16 {
+        padding-top: 16px;
+    }
+
+    .mob-ph16 {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .mob-pv16 {
+        padding-bottom: 16px;
+        padding-top: 16px;
+    }
+
+    .mob-gap4 {
+        gap: 4px;
+    }
+
+    .mob-gap8 {
+        gap: 8px;
+    }
+
+    .mob-gap16 {
+        gap: 16px;
+    }
+
+    .mob-regular {
+        font-weight: 400;
+    }
+
+    .mob-medium {
+        font-weight: 500;
+    }
+
+    .mob-bold {
+        font-weight: 600;
+    }
+
+    .mob-uppercase {
+        text-transform: uppercase;
+    }
+
+    .mob-uppercase-first-letter::first-letter {
+        text-transform: uppercase;
+    }
+
+    .mob-lowercase {
+        text-transform: lowercase;
+    }
+
+    .mob-underline {
+        text-decoration: underline;
+    }
+
+    .mob-shadow {
+        box-shadow: 4px 0 4px rgba(255,255,255,0.2);
+    }
+
+    .mob-text-fill {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    .mob-img38 {
+        width: 38px;
+        height: 38px;
+        min-width: 38px;
+        min-height: 38px;
+    }
+
+    .mob-img36 {
+        width: 36px;
+        height: 36px;
+        min-width: 36px;
+        min-height: 36px;
+    }
+
+    .mob-img40 {
+        width: 40px;
+        height: 40px;
+        min-width: 40px;
+        min-height: 40px;
+    }
+
+    .mob-img50 {
+        width: 50px;
+        height: 50px;
+        min-width: 50px;
+        min-height: 50px;
+    }
+
+    .mob-img100 {
+        width: 100px;
+        height: 100px;
+        min-width: 100px;
+        min-height: 100px;
+    }
+
+    .mob-img32 {
+        width: 32px;
+        height: 32px;
+        min-width: 32px;
+        min-height: 32px;
+    }
+
+    .mob-img64 {
+        width: 64px;
+        height: 64px;
+        min-width: 64px;
+        min-height: 64px;
+    }
+
+    .mob-img24 {
+        width: 24px;
+        height: 24px;
+        min-width: 24px;
+        min-height: 24px;
+    }
+
+    .mob-img18 {
+        width: 18px;
+        height: 18px;
+        min-width: 18px;
+        min-height: 18px;
+    }
+
+    .mob-img28 {
+        width: 28px;
+        height: 28px;
+        min-width: 28px;
+        min-height: 28px;
+    }
+
+    .mob-img22 {
+        width: 22px;
+        height: 22px;
+        min-width: 22px;
+        min-height: 22px;
+    }
+
+    .mob-img20 {
+        width: 20px;
+        height: 20px;
+        min-width: 20px;
+        min-height: 20px;
+    }
+
+    .mob-img16 {
+        width: 16px;
+        height: 16px;
+        min-width: 16px;
+        min-height: 16px;
+    }
+
+    .mob-img14 {
+        width: 14px;
+        height: 14px;
+        min-width: 14px;
+        min-height: 14px;
+    }
+
+    .mob-img12 {
+        width: 12px;
+        height: 12px;
+        min-width: 12px;
+        min-height: 12px;
+    }
+
+    .mob-img10 {
+        width: 10px;
+        height: 10px;
+        min-width: 10px;
+        min-height: 10px;
+    }
+
+    .mob-img8 {
+        width: 8px;
+        height: 8px;
+        min-width: 8px;
+        min-height: 8px;
+    }
+
+    .mob-img4 {
+        width: 4px;
+        height: 4px;
+        min-width: 4px;
+        min-height: 4px;
+    }
+
+    .mob-radius3 {
+        border-radius: 3px
+    }
+
+    .mob-radius4 {
+        border-radius: 4px;
+    }
+
+    .mob-radius8 {
+        border-radius: 8px;
+    }
+
+    .mob-radius10 {
+        border-radius: 10px;
+    }
+
+    .mob-radius-default, .mob-radius16 {
+        border-radius: 16px;
+    }
+
+    .mob-radius24 {
+        border-radius: 24px;
+    }
+
+    .mob-radius12 {
+        border-radius: 12px;
+    }
+
+    .mob-nowrap {
+        white-space: nowrap;
+    }
+
+    .mob-nowrap-disabled {
+        white-space: normal;
+        word-break: break-word;
+    }
+
+    .mob-cursor {
+        cursor: pointer;
+    }
+
+    .mob-border-none {
+        border: none;
+    }
 }
