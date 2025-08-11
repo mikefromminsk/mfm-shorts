@@ -43,10 +43,6 @@
     font-size: 32px;
 }
 
-.size32 {
-    font-size: 32px;
-}
-
 .size40 {
     font-size: 40px;
 }
@@ -494,7 +490,7 @@
 }
 
 .radius3 {
-    border-radius: 3px
+    border-radius: 3px;
 }
 
 .radius4 {
@@ -1024,7 +1020,7 @@
     }
 
     .mob-radius3 {
-        border-radius: 3px
+        border-radius: 3px;
     }
 
     .mob-radius4 {
