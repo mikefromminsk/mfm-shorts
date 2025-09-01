@@ -880,6 +880,12 @@ body, html {
     font-weight: 600;
 }
 
+.text-align-center {
+    text-align: center;
+    white-space: normal;
+    word-break: break-word;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -938,6 +944,13 @@ body, html {
     height: 50px;
     min-width: 50px;
     min-height: 50px;
+}
+
+.img200 {
+    width: 200px;
+    height: 200px;
+    min-width: 200px;
+    min-height: 200px;
 }
 
 .img100 {
