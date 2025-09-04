@@ -890,6 +890,10 @@ body, html {
     text-transform: uppercase;
 }
 
+.uppercase-first-letter {
+    text-transform: lowercase;
+}
+
 .uppercase-first-letter::first-letter {
     text-transform: uppercase;
 }
