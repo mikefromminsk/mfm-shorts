@@ -18,6 +18,10 @@ body, html {
     width: 100%;
 }
 
+.half-width {
+    width: 50%;
+}
+
 .fill-height {
     height: 100%;
 }
@@ -296,6 +300,19 @@ body, html {
 }
 
 @media (max-width: 1000px) {
+
+    .mob-fill-width {
+        width: 100%;
+    }
+
+    .mob-half-width {
+        width: 50%;
+    }
+
+    .mob-fill-height {
+        height: 100%;
+    }
+
     .mob-hide {
         display: none;
     }
