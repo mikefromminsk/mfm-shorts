@@ -899,8 +899,6 @@ body, html {
 
 .text-align-center {
     text-align: center;
-    white-space: normal;
-    word-wrap: break-word;
 }
 
 .uppercase {
@@ -1099,6 +1097,12 @@ body, html {
 .nowrap-disabled {
     white-space: normal;
     word-break: break-word;
+}
+
+.text-crop {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .cursor {
